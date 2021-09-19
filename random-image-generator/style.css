@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(101deg, #78e4ff, #ff48fa);
+  overflow: hidden;
+}
+
+.app-container {
+  background-color: #fff;
+  width: 120rem;
+  margin: 5rem auto;
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.4);
+  border-radius: 1.5rem;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-header {
+  font-size: 2.4rem;
+  margin-bottom: 3.2rem;
+  font-weight: 500;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
+    linear-gradient(101deg, #ff48fa, #78e4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.app-imgs {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6.4rem;
+}
+
+.img-container {
+  border: 1px solid #ccc;
+  color: #495057;
+  width: 30rem;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.4rem;
+}
+
+.btn {
+  border-radius: 100rem;
+  padding: 1rem;
+  font-family: 'Avenir Next';
+  font-size: 2.2rem;
+  padding: 0.5rem 3rem;
+  color: #495057;
+  box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+  border: solid 3px transparent;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(101deg, #78e4ff, #ff48fa);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #fff inset;
+}
+
+.btn:hover {
+  box-shadow: none;
+  color: white;
+}
