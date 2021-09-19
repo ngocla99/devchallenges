@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Online Quiz</title>
+  </head>
+  <body>
+    <div class="quiz-container">
+      <h1 class="quiz-header">JavaScript Online Quiz</h1>
+
+      <form class="quiz-form">
+        <div class="quiz-content">
+          <h2 class="quiz-question">Question 1: JavaScript is a...?</h2>
+          <ul class="quiz-answers">
+            <li class="quiz-answer">
+              <input type="radio" id="a" name="answer" class="answer" />
+              <label for="a" class="a-text">a. answer 1</label>
+            </li>
+            <li class="quiz-answer">
+              <input type="radio" id="b" name="answer" class="answer" />
+              <label for="b" class="b-text">b. answer 2</label>
+            </li>
+            <li class="quiz-answer">
+              <input type="radio" id="c" name="answer" class="answer" />
+              <label for="c" class="c-text">a. answer 3</label>
+            </li>
+            <li class="quiz-answer">
+              <input type="radio" id="d" name="answer" class="answer" />
+              <label for="d" class="d-text">a. answer 4</label>
+            </li>
+          </ul>
+        </div>
+      </form>
+      <div class="button">
+        <button class="btn btn-prev">Previous Question</button>
+        <button class="btn btn-next">Next Question</button>
+        <button class="btn btn-submit hide">Submit Question</button>
+      </div>
+
+      <p class="score-content hide">10 out of 20</p>
+    </div>
+  </body>
+</html>
