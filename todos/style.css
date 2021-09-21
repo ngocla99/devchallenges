@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #444;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.todo-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo-title {
+  font-size: 4.6rem;
+  text-align: center;
+}
+
+.btn-add {
+  cursor: pointer;
+  padding: 1.6rem 3.2rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 2.4rem;
+  /* display: none; */
+}
+
+.btn-add:hover {
+  background-color: #d0cfcf;
+}
+
+.todo-list {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  width: 40rem;
+}
+
+.input {
+  padding: 5px 0;
+  border: none;
+  color: #444;
+  font-size: 3.2rem;
+  padding: 1.6rem 3.2rem;
+  display: block;
+  width: 100%;
+}
+
+.input::placeholder {
+  color: #d5d5d5;
+}
+
+.input:focus {
+  outline-color: rgba(68, 68, 68, 0.7);
+}
+
+.input-edit {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 2.4rem;
+}
+
+.input-edit:focus {
+  outline: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.list-tasks {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.task {
+  position: relative;
+  font-size: 2.4rem;
+  word-wrap: break-word;
+  border-top: 1px solid #e5e5e5;
+  cursor: pointer;
+  padding: 1.6rem 7.2rem 1.6rem 3.2rem;
+}
+
+.task.checked {
+  color: #b6b6b6;
+  text-decoration: line-through;
+}
+
+.tool {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 1.6rem;
+}
+
+.tool i {
+  color: #e5e5e5;
+}
+
+.tool i:hover {
+  color: #aaa;
+}
