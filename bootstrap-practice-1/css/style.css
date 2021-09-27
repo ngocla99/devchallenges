@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero-box,
+.cta-box {
+  background-image: url('../images/bg-masthead.jpg');
+  background-size: cover;
+}
+
+.hero-box {
+  height: 100vh;
+}
+
+.heading-title {
+  font-size: 2rem;
+}
+
+.feature i {
+  font-size: 3.2rem;
+}
+
+.showcase-img img {
+  max-width: 100%;
+  min-height: 30rem;
+  object-fit: cover;
+  object-position: 0%;
+}
+
+.testimonial img {
+  width: 12rem;
+  height: 12rem;
+  box-shadow: 0px 5px 5px 0px #adb5bd !important;
+}
+
+.testimonial-text {
+  font-size: 0.8rem;
+}
+
+.cta-box {
+  height: 70vh;
+}
