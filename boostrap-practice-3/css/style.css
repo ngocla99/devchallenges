@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+
+.header-container {
+  background-image: url('../images/bg-masthead.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.offcanvas {
+  max-width: 250px;
+}
+
+.offcanvas-header {
+  background-color: #1f7996;
+}
+
+.offcanvas-body,
+.section-features,
+.section-buttons {
+  background-color: #1d809f;
+}
+
+.nav-item:hover {
+  background-color: #77b3c5;
+}
+
+.heading-primary {
+  font-size: 4rem;
+}
+
+.btn-primary,
+.btn-dark,
+.btn-light {
+  padding: 1.25rem 2.5rem;
+}
+
+.btn-primary {
+  background-color: #1d809f;
+  border-color: #1d809f;
+}
+
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #1f7996 !important;
+}
+
+.section-cta,
+.section-features,
+.section-projects,
+.section-buttons {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.sub-title {
+  color: #ecb807;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.feature-icon {
+  width: 7rem;
+  height: 7rem;
+  color: #1d809f;
+  font-size: 2.2rem;
+}
+
+.section-download {
+  background-image: url('../images/bg-callout.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+}
+
+.heading-secondary {
+  font-size: 3.5rem;
+}
+
+.project-link {
+  display: block;
+  position: relative;
+}
+
+.project-content {
+  display: flex;
+  position: absolute;
+  background-color: rgba(33, 37, 41, 0.2);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+}
+
+.button-title {
+  font-size: 2rem;
+}
+
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.social-link {
+  display: block;
+  background-color: #1d809f;
+  width: 4rem;
+  height: 4rem;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+@media (min-width: 768px) {
+  .section-projects {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
+  .section-cta h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-features {
+    padding-left: 14rem;
+    padding-right: 14rem;
+  }
+
+  .section-projects {
+    padding-left: 14rem;
+    padding-right: 14rem;
+  }
+}

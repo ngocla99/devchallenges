@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
+      integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script defer src="js/script.js"></script>
+    <script defer src="js/bootstrap.bundle.min.js"></script>
+    <title>Stylish Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="position-fixed top-0 end-0">
+          <div class="mt-3 me-3">
+            <button
+              class="btn-menu btn btn-secondary px-3 py-2"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
+              <a class="menu-bar text-white" href="#">
+                <i class="fas fa-bars"></i>
+              </a>
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasRight"
+          aria-labelledby="offcanvasRightLabel"
+        >
+          <div class="offcanvas-header">
+            <div id="offcanvasRightLabel">
+              <a href="#" class="navbar-brand text-white">Start Bootstrap</a>
+            </div>
+            <button
+              type="button"
+              class="btn btn-dark py-2 px-3 text-white text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            >
+              <i class="fas fa-times text-white"></i>
+            </button>
+          </div>
+
+          <div class="offcanvas-body p-0">
+            <ul class="nav flex-column">
+              <li class="nav-item py-2">
+                <a href="#" class="nav-link text-white">Home</a>
+              </li>
+              <li class="nav-item py-2">
+                <a href="#" class="nav-link text-white">About</a>
+              </li>
+              <li class="nav-item py-2">
+                <a href="#" class="nav-link text-white">Services</a>
+              </li>
+              <li class="nav-item py-2">
+                <a href="#" class="nav-link text-white">Portfolio</a>
+              </li>
+              <li class="nav-item py-2">
+                <a href="#" class="nav-link text-white">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div
+        class="header-container d-flex align-items-center text-center vh-100"
+      >
+        <div class="container px-4">
+          <h1 class="heading-primary fw-bold">Stylish Portfolio</h1>
+          <h2 class="fw-bold fs-3 mb-5">
+            <em>A Free Bootstrap Theme by Start Bootstrap</em>
+          </h2>
+          <a class="btn btn-primary text-white fw-bold" href="#">Find Out More</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section-cta">
+        <div class="container text-center">
+          <div>
+            <h2 class="display-5 fw-bold mb-3 mx-md-3">
+              Stylish Portfolio is the perfect theme for your next project!
+            </h2>
+            <p class="lead mb-5">
+              This theme features a flexible, UX friendly sidebar menu and stock
+              photos from our friends at Unsplash !
+            </p>
+            <a href="#" class="btn btn-dark fw-bold">What We Offer</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-features">
+        <div class="container text-white text-center">
+          <h3 class="sub-title text-uppercase fw-bold fs-6">Services</h3>
+          <h2 class="title mb-5 fw-bold">What We Offer</h2>
+          <div class="row">
+            <div class="feature col-md-6 col-lg-3 pb-5 pb-lg-0">
+              <div
+                class="
+                  feature-icon
+                  bg-white
+                  rounded-circle
+                  mx-auto
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  mb-3
+                "
+              >
+                <i class="icon-screen-smartphone"></i>
+              </div>
+              <h4 class="fw-bold">Responsive</h4>
+              <p class="opacity-75">Looks great on any screen size!</p>
+            </div>
+
+            <div class="feature col-md-6 col-lg-3 pb-5 pb-lg-0">
+              <div
+                class="
+                  feature-icon
+                  bg-white
+                  rounded-circle
+                  mx-auto
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  mb-3
+                "
+              >
+                <i class="icon-pencil"></i>
+              </div>
+              <h4 class="fw-bold">Redesigned</h4>
+              <p class="opacity-75">Freshly redesigned for Bootstrap 4.</p>
+            </div>
+
+            <div class="feature col-md-6 col-lg-3 pb-5 pb-lg-0">
+              <div
+                class="
+                  feature-icon
+                  bg-white
+                  rounded-circle
+                  mx-auto
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  mb-3
+                "
+              >
+                <i class="icon-like"></i>
+              </div>
+              <h4 class="fw-bold">Favorited</h4>
+              <p class="opacity-75">
+                Millions of users <span class="fs-6">&#9829;</span> Start Bootstrap!
+              </p>
+            </div>
+
+            <div class="feature col-md-6 col-lg-3 pb-md-5 pb-lg-0">
+              <div
+                class="
+                  feature-icon
+                  bg-white
+                  rounded-circle
+                  mx-auto
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  mb-3
+                "
+              >
+                <i class="icon-mustache"></i>
+              </div>
+              <h4 class="fw-bold">Question</h4>
+              <p class="opacity-75">I mustache you a question...</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-download">
+        <div class="container text-center px-3 px-md-5 ">
+          <div class="row justify-content-center">
+            <div class=" col-xl-6">
+              <h2 class="heading-secondary fw-bold mb-5 mx-md-5">
+                Welcome to <em>your</em> next website!
+              </h2>
+            </div>
+          </div>
+          <a class="btn btn-primary text-white fw-bold" href="#">Download Now!</a>
+        </div>
+      </section>
+
+      <section class="section-projects">
+        <div class="container px-4">
+          <div class="text-center">
+            <h3 class="sub-title text-uppercase fw-bold fs-6">Portfolio</h3>
+            <h2 class="title mb-5 fw-bold">Recent Projects</h2>
+          </div>
+          <div class="row gy-3 gx-lg-0 gy-lg-0">
+            <div class="project col-lg-6">
+              <a class="project-link text-white" href="#"
+                ><div class="project-content">
+                  <div class="mx-4 mb-4 mt-auto">
+                    <h3 class="fw-bold fs-1">Stationary</h3>
+                    <p class="lead fs-6 m-0">
+                      A yellow pencil with envelopes on a clean, blue backdrop!
+                    </p>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="images/portfolio-1.jpg"
+                  alt="Portfolio 1"
+                />
+              </a>
+            </div>
+
+            <div class="project col-lg-6">
+              <a class="project-link text-white" href="#"
+                ><div class="project-content">
+                  <div class="mx-4 mb-4 mt-auto">
+                    <h3 class="fw-bold fs-1">Ice Cream</h3>
+                    <p class="lead fs-6 m-0">
+                      A dark blue background with a colored pencil, a clip, and
+                      a tiny ice cream cone!
+                    </p>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="images/portfolio-2.jpg"
+                  alt="Portfolio 2"
+                />
+              </a>
+            </div>
+
+            <div class="project col-lg-6">
+              <a class="project-link text-white" href="#"
+                ><div class="project-content">
+                  <div class="mx-4 mb-4 mt-auto">
+                    <h3 class="fw-bold fs-1">Strawberries</h3>
+                    <p class="lead fs-6 m-0">
+                      Strawberries are such a tasty snack, especially with a
+                      little sugar on top!
+                    </p>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="images/portfolio-3.jpg"
+                  alt="Portfolio 3"
+                />
+              </a>
+            </div>
+            <div class="project col-lg-6">
+              <a class="project-link text-white" href="#"
+                ><div class="project-content">
+                  <div class="mx-4 mb-4 mt-auto">
+                    <h3 class="fw-bold fs-1">Workspace</h3>
+                    <p class="lead fs-6 m-0">
+                      A yellow workspace with some scissor, pencils, and other
+                      objects!
+                    </p>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="images/portfolio-4.jpg"
+                  alt="Portfolio 4"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-buttons">
+        <div class="container text-center">
+          <h2 class="button-title fw-bold mb-4 text-white">
+            The buttons below are impossible to resit...
+          </h2>
+
+          <div>
+            <button type="button" class="btn btn-light me-1 me-sm-4 fw-bold">Click Me!</button>
+            <button type="button" class="btn btn-dark fw-bold">Look at Me!</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-map">
+        <div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.414852012381!2d105.81362341485419!3d21.016080486005265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab635d89e4df%3A0x4cae065ea8a7a23f!2zUuG6oXAgQ2hp4bq_dSBQaGltIFF14buRYyBHaWEgLSBUaMOhaSBIw6A!5e0!3m2!1svi!2s!4v1632870676931!5m2!1svi!2s"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container text-center">
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item me-3">
+            <a
+              href="#"
+              class="
+                social-link
+                rounded-circle
+                text-white
+                d-flex
+                align-items-center
+                justify-content-center
+              "
+              ><i class="icon-social-facebook"></i
+            ></a>
+          </li>
+          <li class="list-inline-item me-3">
+            <a
+              href="#"
+              class="
+                social-link
+                rounded-circle
+                text-white
+                d-flex
+                align-items-center
+                justify-content-center
+              "
+              ><i class="icon-social-twitter"></i
+            ></a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              href="#"
+              class="
+                social-link
+                rounded-circle
+                text-white
+                d-flex
+                align-items-center
+                justify-content-center
+              "
+              ><i class="icon-social-github"></i
+            ></a>
+          </li>
+        </ul>
+        <p class="text-muted small mb-0">Copyright © Your Website 2021</p>
+      </div>
+
+      <div class="position-fixed bottom-0 end-0">
+        <div class="mb-3 me-3">
+          <button
+            class="btn btn-secondary px-3 py-2"
+            type="button"
+          >
+            <a class="text-white" href="#">
+              <i class="fas fa-chevron-up"></i>
+            </a>
+          </button>
+        </div>
+    </footer>
+  </body>
+</html>
